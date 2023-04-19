@@ -25,10 +25,10 @@ SECRET_KEY = 'django-insecure-^-r1$3adzgmr770fc5)cgm@ly-_#d(9npb8bj+ab_j^+nllqq!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-rudyc78-puddle-8ps0fuf0dm2.ws-us93.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-rudyc78-puddle-8ps0fuf0dm2.ws-us94.gitpod.io']
 
 ALLOWED_HOSTS = []
-CORS_ORIGIN_WHITELIST = ['https://8000-rudyc78-puddle-8ps0fuf0dm2.ws-us93.gitpod.io']
+CORS_ORIGIN_WHITELIST = ['https://8000-rudyc78-puddle-8ps0fuf0dm2.ws-us94.gitpod.io']
 
 
 
