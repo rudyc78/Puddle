@@ -5,7 +5,7 @@ from item.models import Item
 
 # Create your views here.
 
-@login_required
+@login_required ##Login required to display the items selected
 def index(request):
     items = Item.objects.filter(created_by=request.user)
 
@@ -15,6 +15,13 @@ def index(request):
 
 
     } )
+
+
+
+
+
+
+
 
 
 
