@@ -8,7 +8,7 @@
 
 <form method='post' action="." enctype ="multipart/form-data"> <!--ecntype is required to send images-->
     {% csrf_token %}
-
+ 
     <div class="space-y-4">
         {{ form.as_p }}
     
